@@ -16,7 +16,7 @@ object KafkaStreaming {
       System.out.print("Usage: KafkaStreaming <zkQuorum><groupId><topics><numThreads>")
     }
 
-    val sparkConf=new SparkConf()//.setMaster("local[2]").setAppName("KafkaStreaming")
+    val sparkConf=new SparkConf().setMaster("local[2]").setAppName("KafkaStreaming")
     val ssc=new StreamingContext(sparkConf,Seconds(2))
 
     val Array(zkQuorum,groupId,topics,numThreads)=args
