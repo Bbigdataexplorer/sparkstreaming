@@ -1,4 +1,4 @@
-package com.Beagle.spark.SparkStreaming
+package com.Beagle.spark.SparkStreaming.Hdfs
 
 import java.sql.DriverManager
 

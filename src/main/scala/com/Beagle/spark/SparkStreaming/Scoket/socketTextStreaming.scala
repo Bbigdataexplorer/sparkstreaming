@@ -1,4 +1,4 @@
-package com.Beagle.spark.SparkStreaming
+package com.Beagle.spark.SparkStreaming.Scoket
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}

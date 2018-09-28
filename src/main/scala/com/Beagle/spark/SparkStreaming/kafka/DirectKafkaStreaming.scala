@@ -1,10 +1,10 @@
-package com.Beagle.spark.SparkStreaming
+package com.Beagle.spark.SparkStreaming.kafka
 
 import kafka.serializer.StringDecoder
 import org.apache.log4j.{Level, Logger}
+import org.apache.spark.SparkConf
 import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * AUTHOR: Wanggc

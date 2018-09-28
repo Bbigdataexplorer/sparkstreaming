@@ -1,4 +1,4 @@
-package com.Beagle.spark.SparkStreaming
+package com.Beagle.spark.SparkStreaming.kafka
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
@@ -9,7 +9,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * AUTHOR: Wanggc
   * Date : 2018/9/21 10:20
   */
-object KafkaStreaming {
+object ReceiverKafkaStreaming {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.WARN)
     if(args.length!=4){
