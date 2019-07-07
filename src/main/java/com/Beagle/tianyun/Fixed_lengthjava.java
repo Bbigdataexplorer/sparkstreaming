@@ -19,6 +19,7 @@ public class Fixed_lengthjava {
     202110667027  交通银行上海分行 2134556678
     * */
     public static void main(String[] args) {
+        String ss="";
         String fileName="";
             File file = new File(fileName);
             BufferedReader reader = null;
